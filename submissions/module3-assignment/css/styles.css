@@ -25,7 +25,7 @@ body {
   margin-top: 15px;
   color: #557c3e;
   border: 2px solid #503102;
-  height: 500px;
+  height: auto;
   font-size: 1.2em;
 }
 
