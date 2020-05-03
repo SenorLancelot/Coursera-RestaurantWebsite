@@ -1,22 +1,23 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #723401;
-  font-family: 'Oxygen', sans-serif;
+  
+  font-family: 'Lobster', cursive;
 }
 
 /** HEADER **/
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  font-family: 'Lobster', cursive;
+  color: #fff;
   font-size: 1.5em;
   text-transform: uppercase;
-  font-weight: bold;
+  
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
 }
+
 
 .tiles
 {
@@ -24,6 +25,7 @@ body {
   margin-top: 15px;
   color: #557c3e;
   border: 2px solid #503102;
+  height: 300px;
 }
 
 .tiles h2{
@@ -31,3 +33,24 @@ body {
   color: #fff;
 }
 
+li
+{
+  
+  color: #fff;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+#collapsable-nav
+{
+  border: 2px solid black;
+  color: #fff;
+}
+#header-nav
+{
+  background-color: #723401;
+}
+a
+{
+  color: #723401;
+}
